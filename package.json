@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "Test git repository",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itmo-avol/test-repo.git"
+  },
+  "author": "Avol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itmo-avol/test-repo/issues"
+  },
+  "homepage": "https://github.com/itmo-avol/test-repo#readme",
+  "dependencies": {
+    "string-reverse": "^2.0.0"
+  }
+}
